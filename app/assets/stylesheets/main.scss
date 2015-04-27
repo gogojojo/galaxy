@@ -37,25 +37,24 @@
 	position: absolute;
 	height: 100vh;
 	width: 100vw;
-	z-index: 0;
 
-	.left-2 {
+	.top-2 {
 		background-color: orange;
 		display: inline-block;
 		float: left;
-		height: 100%;
-		width: 50%;
-		left: 0;
+		height: 50%;
+		width: 100%;
+		top: 0;
 		position: absolute;
 		transition: all 2s
 	}
-	.right-2 {
+	.bottom-2 {
 		background-color: orange;
 		display: inline-block;
 		float: left;
-		height: 100%;
-		width: 50%;
-		right: 0;
+		height: 50%;
+		width: 100%;
+		bottom: 0;
 		position: absolute;
 		transition: all 2s
 	}
