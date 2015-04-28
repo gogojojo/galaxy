@@ -14,7 +14,10 @@ $(function(){
 			'z-index':'0',
 			'pointer-events':'none'
 		})
-		$('.slide').css('pointer-events','none')
+		$('.slide img').css('opacity','0'),
+		$('.slide').css({
+			'pointer-events':'none',	
+		})
 	
 	})
 	$('.gos3').click(function(){

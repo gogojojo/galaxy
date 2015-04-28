@@ -29,14 +29,19 @@
 		position: absolute;
 		color: white;
 		text-align: center;
+		width: 100%;
+		display: table;
+		transition: all 1s;
 		.gos2 {
 			z-index: 999;
+			transition: all 1s;
 		}
 		img {
-			
-			display: block;
+			height: 70vh;
+			margin-top: 10vh;
 			margin-left: auto;
 			margin-right: auto;
+			transition: all 1s;
 		}
 	}
 }
